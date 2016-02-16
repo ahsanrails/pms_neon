@@ -1,0 +1,67 @@
+<p id="notice"><%= notice %></p>
+
+
+<div class="row">
+<div class="col-md-8 col-md-offset-2">
+
+
+<p>
+  <strong>Name:</strong>
+  <%= @resource.name %>
+</p>
+
+<p>
+  <strong>Job title:</strong>
+  <%= @resource.job_title %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @resource.email %>
+</p>
+
+<p>
+  <strong>Username:</strong>
+  <%= @resource.username %>
+</p>
+
+<p>
+  <strong>Password:</strong>
+  <%= @resource.password %>
+</p>
+
+<p>
+  <strong>Cnic:</strong>
+  <%= @resource.cnic %>
+</p>
+
+<p>
+  <strong>Experience:</strong>
+  <%= @resource.experience %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @resource.status %>
+</p>
+
+<p>
+  <strong>Require training:</strong>
+  <%= @resource.require_training %>
+</p>
+
+<p>
+  <strong>Date add:</strong>
+  <%= @resource.date_add %>
+</p>
+
+<p>
+  <strong>Date update:</strong>
+  <%= @resource.date_update %>
+</p>
+
+<%= link_to 'Edit', edit_resource_path(@resource), class: 'btn btn-primary' %> |
+<%= link_to 'Back', resources_path, class: 'btn btn-primary' %>
+
+</div>
+</div>

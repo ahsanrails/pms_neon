@@ -1,0 +1,368 @@
+	
+<div class="sidebar-menu">
+
+		
+			<div style="margin-left:-25px;">
+		<header class="logo-env">
+			
+			<!-- logo -->
+
+			<div class="logo">
+				<a href="#">
+					<%= image_tag("pms-logo.png", style:"width:100px; margin-left: 40px; margin-top: -10px;") %>
+				</a>
+			</div>
+
+						<!-- logo collapse icon -->
+						
+			<div class="sidebar-collapse">
+				<a href="#" class="sidebar-collapse-icon with-animation"><!-- add class "with-animation" if you want sidebar to have animation during expanding/collapsing transition -->
+					<i class="entypo-menu"></i>
+				</a>
+			</div>
+			
+									
+			
+			<!-- open/close menu icon (do not remove if you want to enable menu on mobile devices) -->
+			<div class="sidebar-mobile-menu visible-xs">
+				<a href="#" class="with-animation"><!-- add class "with-animation" to support animation -->
+					<i class="entypo-menu"></i>
+				</a>
+			</div>
+			
+		</header>
+				</div>
+		
+		<ul id="main-menu" class="">
+<li>
+				<a href="#">
+					<i class="entypo-home"></i>
+					<span>Home</span>
+				</a>
+</li>
+			<li>
+				<a href="/resources">
+					<i class="entypo-users"></i>
+					<span>Resources</span>
+				</a>
+				<ul>
+					<li>
+						<a href="/resources/new">
+							<span>Add New Resoure</span>
+						</a>
+					</li>
+					<li>
+						<a href="/resources">
+							<span>All Resources</span>
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">
+					<i class="entypo-basket"></i>
+					<span>Clients</span>
+				</a>
+				<ul>
+					<li>
+						<a href="add_client.php">
+							<span>Add New Client</span>
+						</a>
+					</li>
+					<li>
+						<a href="grid_client.php">
+							<span>All Clients</span>
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">
+					<i class="entypo-network"></i>
+					<span>Technology</span>
+				</a>
+				<ul>
+				<li>
+						<a href="add_technology.php">
+							<span>Add New Technology</span>
+						</a>
+					</li>
+					<li>
+						<a href="grid_technology.php">
+							<span>All Technologies</span>
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="/projects">
+					<i class="entypo-flag"></i>
+					<span>Projects</span>
+					
+				</a>
+				<ul>
+					<li>
+						<a href="/projects/new">
+							<i class="entypo-inbox"></i>
+							<span>Add New Project</span>
+						</a>
+					</li>
+					<li>
+						<a href="/projects">
+							<i class="entypo-pencil"></i>
+							<span>All Projects</span>
+						</a>
+					</li>
+					
+				</ul>
+			</li>
+			<li>
+				<a href="#">
+					<i class="entypo-paper-plane"></i>
+					<span>Activities</span>
+				</a>
+				<ul>
+					<li>
+						<a href="add_project_resource.php">
+							<i class="entypo-inbox"></i>
+							<span>Create New Activity</span>
+						</a>
+					</li>
+					<li>
+						<a href="grid_project_resource.php">
+							<i class="entypo-pencil"></i>
+							<span>Detailed Report</span>
+						</a>
+					</li>
+					
+				</ul>
+			</li>
+			<li>
+				<a href="#">
+					<i class="entypo-docs"></i>
+					<span>Assignments</span>
+				</a>
+				<ul>
+					<li>
+						<a href="add_assignment.php">
+							<span>Make New Assignment</span>
+						</a>
+					</li>
+					<li>
+						<a href="grid_assignment.php">
+							<span>View All Assignments</span>
+						</a>
+					</li>
+					<li>
+						<a href="assignment_status.php">
+							<span>Assignment Status</span>
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">
+					<i class="entypo-graduation-cap"></i>
+					<span>Trainings</span>
+				</a>
+				<ul>
+					<li>
+						<a href="add_training.php">
+							<i class="entypo-inbox"></i>
+							<span>Add New Training</span>
+						</a>
+					</li>
+					<li>
+						<a href="grid_training.php">
+							<i class="entypo-pencil"></i>
+							<span>All Trainings</span>
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">
+					<i class="entypo-bookmarks"></i>
+					<span>Assigned Trainings</span>
+				</a>
+				<ul>
+					<li>
+						<a href="add_training_resource.php">
+							<i class="entypo-inbox"></i>
+							<span>Make New Assignment</span>
+						</a>
+					</li>
+					<li>
+						<a href="grid_training_resource.php">
+							<i class="entypo-pencil"></i>
+							<span>Detailed Report</span>
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">
+					<i class="entypo-clipboard"></i>
+					<span>Reports</span>
+				</a>
+				<ul>
+					<li>
+						<a href="report_finished.php">
+							<i class="entypo-inbox"></i>
+							<span>Completed Projects</span>
+						</a>
+					</li>
+					<li>
+						<a href="report_unfinished.php">
+							<i class="entypo-pencil"></i>
+							<span>Pending Projects</span>
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">
+					<i class="entypo-reply-all"></i>
+					<span>Feedback</span>
+				</a>
+				<ul>
+					<li>
+						<a href="comments.php">
+							<i class="entypo-inbox"></i>
+							<span>Comments</span>
+						</a>
+					</li>
+					<li>
+						<a href="feedback.php">
+							<i class="entypo-pencil"></i>
+							<span>User Feedback</span>
+						</a>
+					</li>
+				</ul>
+			</li>
+			
+		</ul>
+				
+
+	</div>
+
+	<div class="main-content">
+				
+		<div class="row">
+		
+			<!-- Profile Info and Notifications -->
+			<div class="col-md-6 col-sm-8 clearfix">
+		
+				<ul class="user-info pull-left pull-none-xsm">
+		
+					<!-- Profile Info -->
+					<li class="profile-info dropdown"><!-- add class "pull-right" if you want to place this from right -->
+		
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<%= image_tag("thumb-2.png", class:"img-circle") %>
+							Lahore Team
+						</a>
+		
+						<ul class="dropdown-menu">
+		
+							<!-- Reverse Caret -->
+							<li class="caret"></li>
+		
+							<!-- Profile sub-links -->
+							<li>
+								<a href="extra-timeline.html">
+									<i class="entypo-user"></i>
+									Edit Profile
+								</a>
+							</li>
+		
+							<li>
+								<a href="extra-calendar.html">
+									<i class="entypo-calendar"></i>
+									Calendar
+								</a>
+							</li>
+		
+							<li>
+								<a href="#">
+									<i class="entypo-clipboard"></i>
+									Tasks
+								</a>
+							</li>
+						</ul>
+					</li>
+		
+				</ul>
+				
+				<ul class="user-info pull-left pull-right-xs pull-none-xsm">
+		
+					<!-- Raw Notifications -->
+					<li class="notifications dropdown">
+		
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+							<i class="entypo-attention"></i>
+							<span class="badge badge-info">6</span>
+						</a>
+							<ul class="dropdown-menu">
+							
+							<li class="external">
+								<a href="mailbox.html">All Messages</a>
+							</li>
+						</ul>
+						
+					</li>
+		
+					<!-- Message Notifications -->
+					<li class="notifications dropdown">
+		
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+							<i class="entypo-mail"></i>
+							<span class="badge badge-secondary">10</span>
+						</a>
+		
+						<ul class="dropdown-menu">
+							
+							<li class="external">
+								<a href="mailbox.html">All Messages</a>
+							</li>
+						</ul>
+		
+					</li>
+		
+					<!-- Task Notifications -->
+					<li class="notifications dropdown">
+		
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+							<i class="entypo-list"></i>
+							<span class="badge badge-warning">1</span>
+						</a>
+		
+						<ul class="dropdown-menu">
+							<li class="top">
+								<p>You have 6 pending tasks</p>
+							</li>
+				</ul>
+			</li>
+		</ul>
+			</div>
+		
+		
+			<!-- Raw Links -->
+			<div class="col-md-6 col-sm-4 clearfix hidden-xs">
+		
+				<ul class="list-inline links-list pull-right">	
+					<li>
+						<a href="extra-login.html">
+							Log Out <i class="entypo-logout right"></i>
+						</a>
+					</li>
+				</ul>
+		
+			</div>
+		
+		</div>	
+
+<hr>
+
+	
+	

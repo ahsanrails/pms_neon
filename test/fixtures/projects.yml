@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  coordinator: MyString
+  category: MyString
+  date_start: 2016-02-15
+  deadline: 2016-02-15
+  date_finish: 2016-02-15
+
+two:
+  title: MyString
+  coordinator: MyString
+  category: MyString
+  date_start: 2016-02-15
+  deadline: 2016-02-15
+  date_finish: 2016-02-15
